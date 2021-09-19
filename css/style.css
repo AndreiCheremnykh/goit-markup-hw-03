@@ -19,6 +19,7 @@
 }
 body {
   color: var(--primery-text-color);
+  background-color: var(--bg-white);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -32,9 +33,9 @@ a {
   text-decoration: none;
   /* header */
 }
-.header {
-  background-color: var(--bg-white);
-}
+/* .header {
+  
+} */
 /* Лого */
 .logo {
   color: var(--primery-text-color);
@@ -75,6 +76,7 @@ a {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 .hero .button {
   background-color: var(--accent-color);
@@ -83,17 +85,22 @@ a {
   font-size: 16px;
   line-height: 1.87;
 }
-/* Advantage */
-.advantage {
-  background-color: var(--bg-primery-pf);
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #188ce8;
 }
+
+/* Advantage */
+/* .advantage {
+} */
 .advantage .notitle {
-  color: #e5e5e5;
+  color: #ffffff;
 }
 .advantage-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .advantage-text {
   color: var(--title-text-color);
@@ -102,9 +109,9 @@ a {
   line-height: 1.71;
 }
 /* Work */
-.work {
-  background-color: var(--bg-primery-pf);
-}
+/* .work {
+ 
+} */
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -154,6 +161,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .footer .link {
   color: var(--text-footer-color);
@@ -164,22 +172,32 @@ a {
 }
 /* Portfolio */
 /* Buttons */
-.radio-buttons {
+/* .radio-buttons {
+} */
+.btn {
+  background-color: var(--bg-secondary);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--text-white-color);
+  background-color: var(--accent-color);
 }
 /* Content */
 /* .content {
 } */
 .content-title {
+  color: var(--primery-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .content-text {
-  color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
