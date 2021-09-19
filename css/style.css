@@ -1,0 +1,186 @@
+/*цвет основного текста #212121 */
+/*вторичный цвет текста #757575 */
+/* цвет телефона и почты в футере  rgba(255, 255, 255, 0.6); */
+/*белый #FFFFFF */
+/*синий #2196F3 */
+/* фон темный  #2F303A */
+/* цвет фона секции чем занимаемся #E5E5E5 *
+/* цвет фона секции команда #F5F4FA */
+:root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --text-white-color: #ffffff;
+  --text-footer-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --bg-white: #ffffff;
+  --bg-navyblue: #2f303a;
+  --bg-primery-pf: #e5e5e5;
+  --bg-secondary: #f5f4fa;
+}
+body {
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* списки */
+ul {
+  list-style: none;
+}
+/* ссылки */
+a {
+  color: var(--title-text-color);
+  text-decoration: none;
+  /* header */
+}
+.header {
+  background-color: var(--bg-white);
+}
+/* Лого */
+.logo {
+  color: var(--primery-text-color);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-text {
+  color: var(--accent-color);
+}
+/* site-nav */
+.site-nav,
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--primery-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background-color: var(--bg-navyblue);
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  color: var(--text-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+.hero .button {
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* Advantage */
+.advantage {
+  background-color: var(--bg-primery-pf);
+}
+.advantage .notitle {
+  color: #e5e5e5;
+}
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.advantage-text {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Work */
+.work {
+  background-color: var(--bg-primery-pf);
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* .work-box {
+} */
+/* Team */
+.team {
+  background-color: var(--bg-secondary);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-function {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Footer */
+.footer {
+  background-color: var(--bg-navyblue);
+}
+.footer .logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer .logo,
+.footer .address {
+  color: var(--text-white-color);
+}
+.footer .address,
+.footer .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer .link {
+  color: var(--text-footer-color);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+/* Portfolio */
+/* Buttons */
+.radio-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+/* Content */
+/* .content {
+} */
+.content-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.content-text {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
