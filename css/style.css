@@ -14,9 +14,9 @@
   --accent-color: #2196f3;
   --bg-white: #ffffff;
   --bg-navyblue: #2f303a;
-  --bg-primery-pf: #e5e5e5;
   --bg-secondary: #f5f4fa;
 }
+
 body {
   color: var(--primery-text-color);
   background-color: var(--bg-white);
@@ -25,6 +25,8 @@ body {
 }
 /* списки */
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 /* ссылки */
@@ -69,53 +71,80 @@ a {
 .hero {
   background-color: var(--bg-navyblue);
   letter-spacing: 0.06em;
+  text-align: center;
 }
-.hero-title {
+.hero .title {
+  margin-top: 0;
+  margin-bottom: 40px;
   color: var(--text-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   text-transform: uppercase;
 }
-.hero .button {
+.button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
   background-color: var(--accent-color);
   color: var(--text-white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  text-align: center;
 }
 .hero .button:hover,
 .hero .button:focus {
   background-color: #188ce8;
+}
+/* titles */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+/* texts */
+.text {
+  font-weight: 400;
 }
 
 /* Advantage */
 /* .advantage {
 } */
 .advantage .notitle {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #ffffff;
 }
-.advantage-title {
-  font-weight: 700;
+/*  List */
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.advantage .title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.advantage-text {
+.advantage .text {
+  margin-top: 0;
+  margin-bottom: 94px;
+
   color: var(--title-text-color);
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
 }
 /* Work */
 /* .work {
- 
 } */
-.work-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+.work .title {
+  margin-top: 0;
+  margin-bottom: 50px;
   text-align: center;
 }
 /* .work-box {
@@ -124,10 +153,7 @@ a {
 .team {
   background-color: var(--bg-secondary);
 }
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+.team .title {
   text-align: center;
 }
 .team-name {
@@ -190,15 +216,13 @@ a {
 /* Content */
 /* .content {
 } */
-.content-title {
+.content .title {
   color: var(--primery-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.content-text {
-  font-weight: 400;
+.content .text {
   font-size: 16px;
   line-height: 1.87;
 }
