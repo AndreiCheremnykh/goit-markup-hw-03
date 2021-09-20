@@ -69,6 +69,8 @@ a {
 }
 /* hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--bg-navyblue);
   letter-spacing: 0.06em;
   text-align: center;
@@ -99,6 +101,8 @@ a {
 .hero .button:focus {
   background-color: #188ce8;
 }
+/* conteiner */
+
 /* titles */
 .title {
   font-weight: 700;
@@ -111,8 +115,10 @@ a {
 }
 
 /* Advantage */
-/* .advantage {
-} */
+.advantage {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .advantage .notitle {
   margin-top: 0;
   margin-bottom: 0;
@@ -132,7 +138,7 @@ a {
 }
 .advantage .text {
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
 
   color: var(--title-text-color);
 
@@ -140,8 +146,10 @@ a {
   line-height: 1.71;
 }
 /* Work */
-/* .work {
-} */
+.work {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 .work .title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -151,18 +159,30 @@ a {
 } */
 /* Team */
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--bg-secondary);
 }
+.photo {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
 .team .title {
+  margin-top: 0;
+  margin-bottom: 50px;
   text-align: center;
 }
 .team-name {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .team-function {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -197,9 +217,15 @@ a {
   color: var(--accent-color);
 }
 /* Portfolio */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Buttons */
-/* .radio-buttons {
-} */
+.radio-buttons {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
 .btn {
   background-color: var(--bg-secondary);
   font-weight: 500;
@@ -216,13 +242,25 @@ a {
 /* Content */
 /* .content {
 } */
+.pic {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .content .title {
+  margin-top: 0;
+  margin-bottom: 4px;
   color: var(--primery-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .content .text {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.87;
+}
+.content-link {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
