@@ -23,6 +23,16 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+/* заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
 /* списки */
 ul {
   padding: 0;
@@ -76,7 +86,6 @@ a {
   text-align: center;
 }
 .hero .title {
-  margin-top: 0;
   margin-bottom: 40px;
   color: var(--text-white-color);
   font-weight: 900;
@@ -120,17 +129,13 @@ a {
   padding-bottom: 94px;
 }
 .advantage .notitle {
-  margin-top: 0;
-  margin-bottom: 0;
   color: #ffffff;
 }
 /*  List */
-.list {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+/* .list {
+
+} */
 .advantage .title {
-  margin-top: 0;
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
@@ -151,7 +156,6 @@ a {
   padding-bottom: 94px;
 }
 .work .title {
-  margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -168,12 +172,10 @@ a {
   margin-bottom: 30px;
 }
 .team .title {
-  margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
 }
 .team-name {
-  margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -247,7 +249,6 @@ a {
   margin-bottom: 20px;
 }
 .content .title {
-  margin-top: 0;
   margin-bottom: 4px;
   color: var(--primery-text-color);
   font-size: 18px;
@@ -260,7 +261,5 @@ a {
   font-size: 16px;
   line-height: 1.87;
 }
-.content-link {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
+/* .content-link {
+} */
