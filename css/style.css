@@ -34,10 +34,14 @@ h6 {
   margin: 0;
 }
 /* списки */
-ul {
+.list {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+.notitle {
+  color: #ffffff;
+  font-size: 0%;
 }
 /* ссылки */
 a {
@@ -63,9 +67,9 @@ a {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
-  padding-left: 215px;
-  padding-right: 215px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* nav */
 .nav {
@@ -144,8 +148,20 @@ a {
 .hero .button:focus {
   background-color: #188ce8;
 }
-/* conteiner */
+/* .advantage */
+/* .advantage {
+  margin: 0;
+  padding: 0;
+} */
+/* conteiner advantage */
+.advantage .list {
+  display: flex;
+  justify-content: space-between;
+}
 
+.advantage .item {
+  width: 270px;
+}
 /* titles */
 .title {
   font-weight: 700;
@@ -162,9 +178,7 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.advantage .notitle {
-  color: #ffffff;
-}
+
 /*  List */
 /* .list {
 
@@ -193,8 +207,13 @@ a {
   margin-bottom: 50px;
   text-align: center;
 }
-/* .work-box {
-} */
+.work-box {
+  display: flex;
+  justify-content: space-between;
+}
+.work-box .item {
+  width: 370px;
+}
 /* Team */
 .team {
   padding-top: 94px;
@@ -208,6 +227,14 @@ a {
 .team .title {
   margin-bottom: 50px;
   text-align: center;
+}
+.team-member {
+  display: flex;
+
+  justify-content: space-between;
+}
+.team-member .item {
+  width: 270px;
 }
 .team-name {
   margin-bottom: 10px;
@@ -227,6 +254,8 @@ a {
 }
 /* Footer */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--bg-navyblue);
 }
 .footer .logo {
@@ -237,6 +266,12 @@ a {
 .footer .logo,
 .footer .address {
   color: var(--text-white-color);
+}
+.footer .address {
+  margin-top: 20px;
+}
+.footer .item {
+  margin-top: 9px;
 }
 .footer .address,
 .footer .link {
@@ -259,8 +294,16 @@ a {
 }
 /* Buttons */
 .radio-buttons {
+  display: flex;
   margin-top: 0;
   margin-bottom: 50px;
+  justify-content: center;
+}
+.radio-buttons .item {
+  margin-right: 8px;
+}
+.radio-buttons .item:last-child {
+  margin-right: 0;
 }
 .btn {
   background-color: var(--bg-secondary);
@@ -276,8 +319,19 @@ a {
   background-color: var(--accent-color);
 }
 /* Content */
-/* .content {
-} */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .item {
+  width: 370px;
+}
+.content .item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.content .item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
 .pic {
   margin-top: 0;
   margin-bottom: 20px;
